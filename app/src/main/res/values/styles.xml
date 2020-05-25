@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme.  parent="Theme.AppCompat.Light.NoActionBar"-->
+    <!--标准的主题,不包含沉浸式渐变色主题以及滑动返回的主题,后续的新增主题继承这个标准主题即可-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--导航栏颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--一般控件的选种效果默认采用该颜色 如checkbox-->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!--Button，textView的文字颜色-->
+        <item name="android:textColor">#333333</item>
+        <!--Button，textView的文字大小-->
+        <item name="android:textSize">14sp</item>
+        <!--字母是否全部大写-->
+        <item name="android:textAllCaps">false</item>
+        <!--取消导航栏-->
+        <item name="windowActionBar">false</item>
+        <!--取消导航栏-V4包-->
+        <item name="android:windowActionBar">false</item>
+        <!--取消界面标题-->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

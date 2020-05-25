@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.zhang.mallweb"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    /**
+     *  Android基础依赖库
+     */
+    api "com.android.support:design:$versions.supportLibrariesVersion"
+    api "com.android.support:animated-vector-drawable:$versions.supportLibrariesVersion"
+    api "com.android.support:support-media-compat:$versions.supportLibrariesVersion"
+    api "com.android.support:support-v4:$versions.supportLibrariesVersion"
+    api "com.android.support:appcompat-v7:$versions.supportLibrariesVersion"
+    api "com.android.support:cardview-v7:$versions.supportLibrariesVersion"
+    api "com.android.support.constraint:constraint-layout:$versions.constraintLayoutVersion"
+    api 'com.android.support:multidex:1.0.2'
+}

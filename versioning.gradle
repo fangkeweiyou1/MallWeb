@@ -1,0 +1,71 @@
+ext.versions = [
+
+        //编译SDK
+        compileSdkVersion                 : 28,
+        //构建工具
+        buildToolsVersion                 : '27.0.0',
+        //最低版本
+        minSdkVersion                     : 21,
+        //目标SDK
+        targetSdkVersion                  : 28,
+
+        //支持库
+        supportLibrariesVersion           : '28.0.0',
+        //constraintLayout
+        constraintLayoutVersion           : '1.1.3',
+        //timber
+        timberVersion                     : '4.5.1',
+        //MVP库
+        mosbyMvpVersion                   : '3.0.4',
+        //glide
+        glideVersion                      : '4.5.0',
+        //lottie动画
+        lottieAnimations                  : '2.1.0',
+        //突破65535方法限制
+        multidexLib                       : '1.0.2',
+        //EventBus
+        eventBusVersion                   : '3.1.1',
+        //dagger
+        daggerVersion                     : '2.14.1',
+        //butterknife
+        butterknifeVersion                : '8.8.1',
+        //http相关
+        loggingInterceptorVersion         : '3.4.2',
+        retrofitVersion                   : '2.3.0',
+        rxJavaVersion                     : '2.1.1',
+        rxAndroidVersion                  : '2.0.1',
+        //ARouter
+        arouter_api                       : '1.5.0',
+        arouter_compiler                  : '1.2.2',
+        //zxing二维码
+        zxing_version                  : '1.3.6',
+        //下拉刷新库
+        refresh_version                  : '1.1.0-alpha-21',
+        //拼音
+        tinypinyin_version                  : '2.0.3',
+        //圆角图片
+        circleimageview                  : '2.2.0',
+        //BaseAdapter
+        adapterhelper                  : '2.9.42',
+        //请求权限
+        rxpermission_version                  : '0.9.5@aar',
+        //图片放大库
+        photoview_version                  : '2.1.3',
+        // flexboxlayout
+        flexbox_version                  : '1.0.0',
+        //腾讯bugly
+        bugly_version                  : 'latest.release',
+        //生命周期监听
+        lifecycle_version                  : '1.1.1',
+        //gson
+        google_gson                  : '2.8.1',
+
+        //zxing 扫一扫
+        zxing_android_core:'3.3.0',
+        zxing_core:'3.3.2',
+
+        material:'1.1.0-alpha10',
+        core_ktx:'1.1.0',
+        // rxpermission
+        nav_version:'1.0.0',
+]
